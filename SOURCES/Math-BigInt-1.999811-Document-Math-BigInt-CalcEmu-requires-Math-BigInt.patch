@@ -1,0 +1,30 @@
+From 03f021afa23bc841fd09b8de34b8d84d51b36e30 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Petr=20P=C3=ADsa=C5=99?= <ppisar@redhat.com>
+Date: Mon, 2 Dec 2013 10:10:56 +0100
+Subject: [PATCH] Document Math::BigInt::CalcEmu requires Math::BigInt
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<https://rt.cpan.org/Public/Bug/Display.html?id=85015>
+
+Signed-off-by: Petr Písař <ppisar@redhat.com>
+---
+ lib/Math/BigInt/CalcEmu.pm | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/lib/Math/BigInt/CalcEmu.pm b/lib/Math/BigInt/CalcEmu.pm
+index 69c02ca..feda9fa 100644
+--- a/lib/Math/BigInt/CalcEmu.pm
++++ b/lib/Math/BigInt/CalcEmu.pm
+@@ -292,6 +292,7 @@ Math::BigInt::CalcEmu - Emulate low-level math with BigInt code
+ 
+ =head1 SYNOPSIS
+ 
++	use Math::BigInt;
+ 	use Math::BigInt::CalcEmu;
+ 
+ =head1 DESCRIPTION
+-- 
+2.20.1
+
